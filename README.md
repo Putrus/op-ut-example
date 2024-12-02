@@ -5,7 +5,7 @@ Minimum version required is 3.6.
 git clone https://github.com/Putrus/op-ut-example
 cd op-ut-example
 cmake -S . -B build # Default compiler
-cmake -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++ -DCMAKE_C_COMPILER=gcc -S -DCMAKE_BUILD_TYPE=Release -S . -B build # g++ compiler
+cmake -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++ -DCMAKE_C_COMPILER=gcc -DCMAKE_BUILD_TYPE=Release -S . -B build # g++ compiler
 cmake --build build
 ```
 
